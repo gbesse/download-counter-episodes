@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "download-counter-episodes"
+version = "0.1.0a1"
+description = "FR: Séparer téléchargements observés, remises à zéro et totaux inconnus | EN: Separate observed downloads, counter resets and unknown totals | ES: Separar descargas observadas, reinicios y totales desconocidos"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+download-counter-episodes = "download_counter_episodes.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["download_counter_episodes*"]

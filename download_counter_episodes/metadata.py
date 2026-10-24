@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Séparer téléchargements observés, remises à zéro et totaux inconnus', 'en': 'Separate observed downloads, counter resets and unknown totals', 'es': 'Separar descargas observadas, reinicios y totales desconocidos'}
